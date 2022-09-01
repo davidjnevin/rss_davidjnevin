@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "rss_davidjnevin"
 version = "0.1.0"
-description = ""
+description = "David J Nevin Blog RSS - Search tool"
 authors = ["David J Nevin <content@davidjnevin.com>"]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
