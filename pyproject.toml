@@ -2,7 +2,7 @@
 name = "rss_davidjnevin"
 version = "0.1.0"
 description = ""
-authors = ["David J Nevin <66497218+davidjnevin@users.noreply.github.com>"]
+authors = ["David J Nevin <content@davidjnevin.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -14,3 +14,6 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+search = "rss_davidjnevin.search:main"

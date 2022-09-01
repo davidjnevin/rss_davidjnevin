@@ -4,7 +4,6 @@ from collections import namedtuple
 import feedparser
 
 DJN_FEED = "https://www.davidjnevin.com/index.xml"
-# DJN_FEED = "https://feeds.buzzsprout.com/1501156.rss"
 DJN_BASEURL = "https://www.davidjnevin.com"
 BLOG_MATCH = """Title: {title}
 Link: {link}
